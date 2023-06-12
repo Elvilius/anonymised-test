@@ -1,5 +1,5 @@
-import { CustomerModel } from "./models";
-import { CreateCustomerDto } from "./dto/create-customer.dto";
+import { CustomerModel } from './models';
+import { CreateCustomerDto } from './dto/create-customer.dto';
 
 class Customers {
   private readonly CustomerModel: typeof CustomerModel;

@@ -1,7 +1,9 @@
-import mongoose from "mongoose";
-import { CustomersService } from "./src/customers.service";
-import { getRandomCustomers } from "./src/utils";
-import "dotenv/config";
+/*eslint no-constant-condition: ["error", { "checkLoops": false }]*/
+
+import mongoose from 'mongoose';
+import { CustomersService } from './src/customers.service';
+import { getRandomCustomers } from './src/utils';
+import 'dotenv/config';
 
 const start = async () => {
   try {

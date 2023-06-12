@@ -1,6 +1,6 @@
-import { faker } from "@faker-js/faker";
-import { CreateCustomerDto } from "./dto/create-customer.dto";
-import { promisify } from "util";
+import { faker } from '@faker-js/faker';
+import { CreateCustomerDto } from './dto/create-customer.dto';
+import { promisify } from 'util';
 
 const getRandomArbitrary = () => Math.random() * (10 - 1) + 1;
 

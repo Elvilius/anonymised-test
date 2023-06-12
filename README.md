@@ -3,20 +3,19 @@
 ## Running the app
 
 ```bash
-# development
 $ cd app
 
-# watch mode
+$ npm install
+
 $ npm run start
 ```
 
 ## Running the sync
 
 ```bash
-# development
 $ cd sync
 
-$ npm run start
+$ npm install
 
 $ npm run start
 
