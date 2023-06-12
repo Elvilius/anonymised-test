@@ -29,7 +29,7 @@ const getRandomCustomer = (): CreateCustomerDto => {
 };
 
 export const getRandomCustomers = async () => {
-  await promisify(setTimeout)(1000);
+  await promisify(setTimeout)(200);
   return Array.from({
     length: getRandomArbitrary(),
   }).map(() => getRandomCustomer());
