@@ -32,7 +32,7 @@ class AnonymizeCustomer {
       }
 
       if (key === ANONYMIZE_FIELDS.email) {
-        const [email, domain] = data.email;
+        const [email, domain] = data.email.split('@');
         const anonymizeEmail = [this.getDataAnonymize(email), domain].join('@');
         acc[key] = anonymizeEmail;
         return acc;
